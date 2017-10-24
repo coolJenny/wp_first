@@ -1,0 +1,39 @@
+ChangeLog
+=========
+
+Version 0.9
+
+	i) Initial Release.
+	
+Version 0.91, 0.92
+
+	i) Pre release bug Fixes.
+		
+		
+Version 0.94
+
+	i) Minor Translation Fixes.
+	ii) Escaping Fixes.
+	iii) Used New core pagination function.		
+	
+	
+Version 0.95
+
+	i) Text domain corrected.
+	
+Version 0.96
+
+	i) Corrected Class Names		
+	
+Version 0.97
+
+	i) Added Documentation about Menus.	
+	
+Version 0.98
+
+	i) Sanitization Fixes.
+	ii) Escape Fixes.
+		
+Version 1.0
+
+	i) Fixed WC 3 Issues		

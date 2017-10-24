@@ -1,0 +1,371 @@
+/*
+Theme Name: Arunachala
+Description: Used to style the TinyMCE editor.
+*/
+
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Body
+ * 2.0 - Headings
+ * 3.0 - Text Elements
+ * 4.0 - Links
+ * 5.0 - Alignment
+ * 6.0 - Tables
+ * 7.0 - Images
+ * 8.0 - RTL
+ * ----------------------------------------------------------------------------
+ */
+
+
+/**
+ * 1.0 Body
+ * ----------------------------------------------------------------------------
+ */
+
+html .mceContentBody {
+	font-size: 100%;
+}
+
+body {
+	color: #444;
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+	vertical-align: baseline;
+}
+
+
+/**
+ * 2.0 Headings
+ * ----------------------------------------------------------------------------
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+h1 {
+	font-size: 26px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+
+/**
+ * 3.0 Text Elements
+ * ----------------------------------------------------------------------------
+ */
+
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+dfn, cite, em, i {
+	font-style: italic;
+}
+
+blockquote {
+	background: #f9f9f9;
+	border-left: 10px solid #ccc;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+address {
+	font-style: italic;
+	margin: 0 0 1.5em;
+}
+
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+	word-wrap: break-word;	
+}
+
+code, kbd, tt, var {
+	font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+abbr, acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark, ins {
+	background: #fff9c0;
+	color: inherit;
+	text-decoration: none;
+}
+
+sup,
+sub {
+	font-size: 75%;
+	height: 0;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	bottom: 1ex;
+}
+
+sub {
+	top: .5ex;
+}
+
+small {
+	font-size: 75%;
+}
+
+big {
+	font-size: 125%;
+}
+
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+ul, ol {
+	margin: 0 0 1.5em 3em;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+figure {
+	margin: 0;
+}
+
+table,
+th,
+td {
+	border: 1px solid #eee;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	border-width: 1px 0 0 1px;
+	margin-bottom: 24px;
+	width: 100%;
+}
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+th {
+	border-width: 0 1px 1px 0;
+	font-weight: bold;
+}
+
+td {
+	border-width: 0 1px 1px 0;
+}
+
+
+/**
+ * 4.0 Links
+ * ----------------------------------------------------------------------------
+ */
+
+a {
+	color: #4169e1;
+	text-decoration: none;
+}
+a:visited {
+}
+a:hover,
+a:focus,
+a:active {
+	color: #153492;
+}
+
+
+/**
+ * 5.0 Alignment
+ * ----------------------------------------------------------------------------
+ */
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/**
+ * 6.0 Tables
+ * ----------------------------------------------------------------------------
+ */
+
+.mceItemTable {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-width: 1px 0 0 1px;
+	border-collapse: separate;
+	border-spacing: 0;
+	font-size: 14px;
+	line-height: 1.2857142857;
+	margin-bottom: 24px;
+	width: 100%;
+}
+
+.mceItemTable th,
+.mceItemTable caption {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-width: 0 1px 1px 0;
+	font-weight: 700;
+	padding: 8px;
+	text-align: left;
+	text-transform: uppercase;
+	vertical-align: baseline;
+}
+
+.mceItemTable td {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-width: 0 1px 1px 0;
+	font-family: Lato, sans-serif;
+	font-size: 14px;
+	padding: 8px;
+	vertical-align: baseline;
+}
+
+
+/**
+ * 7.0 Images
+ * ----------------------------------------------------------------------------
+ */
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+.wp-caption {
+	border: 1px solid #ccc;
+	height: auto;
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 1.2% auto 0;
+	max-width: 98%;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+.mceTemp + ul,
+.mceTemp + ol {
+	list-style-position: inside;
+}
+
+
+/**
+ * 8.0 RTL
+ * ----------------------------------------------------------------------------
+ */
+
+html .mceContentBody.rtl {
+	direction: rtl;
+	unicode-bidi: embed;
+}

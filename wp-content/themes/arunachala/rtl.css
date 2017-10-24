@@ -1,0 +1,353 @@
+/*
+Theme Name: Arunachala
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Reset
+2.0 - Typography
+3.0 - Elements
+4.0 - Inputs and buttons
+5.0 - Navigation
+	5.1 - Links
+	5.2 - Menus
+6.0 - Accessibility
+7.0 - Alignments
+8.0 - Clearings
+9.0 - Widgets
+10.0 - Content
+	10.1 - Posts and pages
+	10.2 - Asides
+	10.3 - Comments
+	10.4 - 404 Page not found
+	10.5 - Genericons
+11.0 - Infinite scroll
+12.0 - Media
+13.0 - Structure
+	13.1 - Featured Posts Slider 
+14.0 - Media Queries
+	14.1 - Tablet
+	14.2 - Desktop
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+
+body {
+  direction:rtl;
+  unicode-bidi: embed;
+}
+
+caption, th, td {
+	text-align: right;
+}
+
+/*--------------------------------------------------------------
+2.0 Typography
+--------------------------------------------------------------*/
+
+blockquote {
+	border-left: 0;
+	border-right: 10px solid #ccc;
+}
+
+blockquote:before {
+	margin-left: 0.25em;
+	margin-right: 0;
+}
+
+/*--------------------------------------------------------------
+3.0 Elements
+--------------------------------------------------------------*/
+
+ul, ol {
+	margin: 0 3em 1.5em 0;
+}
+
+li > ul,
+li > ol {
+	margin-left: 0;
+	margin-right: 1.5em;
+}
+
+dd {
+	margin: 0 0 1.5em 1.5em;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+td {
+	border-width: 0 0 1px 1px;
+}
+
+/*--------------------------------------------------------------
+4.0 Inputs and buttons
+--------------------------------------------------------------*/
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	padding: .6em 0 .4em 1em;
+}
+
+textarea {
+	padding-left: 0;
+	padding-right:3px;
+}
+
+/*--------------------------------------------------------------
+5.0 Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+5.1 Links
+--------------------------------------------------------------*/
+
+.more-link:before {
+	content: " \00AB";
+}
+
+
+/*--------------------------------------------------------------
+5.2 Menus
+--------------------------------------------------------------*/
+
+.main-navigation ul ul {
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+[class*="navigation"] .nav-previous {
+	float: right;
+}
+
+[class*="navigation"] .nav-next {
+	float: left;
+	text-align: leftt;
+}
+
+/*--------------------------------------------------------------
+6.0 Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers */
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	right: 5px;
+	padding: 15px 0 14px 23px;
+}
+
+/*--------------------------------------------------------------
+7.0 Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	float: right;
+	margin-left: 1.5em;
+	margin-right: 0;
+}
+
+.alignright {
+	float: left;
+	margin-left: 0;
+	margin-right: 1.5em;
+}
+
+/*--------------------------------------------------------------
+8.0 Clearings
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+9.0 Widgets
+--------------------------------------------------------------*/
+
+.widget li > ul,
+.widget li > ol {
+	margin-left: 0;
+	margin-right: 1.5em;
+}
+
+.widget_calendar #prev {
+	padding-left: 0;
+	padding-right: 5px;
+}
+
+.widget_calendar #next {
+	padding-left: 5px;
+	padding-right: 0;
+	text-align: left;
+}
+
+/*--------------------------------------------------------------
+10.0 Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+10.1 Posts and pages
+--------------------------------------------------------------*/
+
+.site-content .entry-meta > span {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+/*--------------------------------------------------------------
+10.2 Asides
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+10.3 Comments
+--------------------------------------------------------------*/
+
+.children {
+	margin: 0 6% 0 0;
+}
+
+.comment .avatar {
+	float: right;
+	margin-left: 1.25em;
+	margin-right: 0;
+}
+
+.comment-content{
+	margin: 1em 3.5em 0 0;
+}
+
+.comment .reply {
+	margin: 0 3.5em 1em 0;
+}
+
+/*--------------------------------------------------------------
+10.4 Page not found
+--------------------------------------------------------------*/
+	
+/*--------------------------------------------------------------
+10.5 Genericons
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+11.0 Infinite scroll
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+12.0 Media
+--------------------------------------------------------------*/
+
+.attachment .previous-image {
+	float: right;
+}
+
+.attachment .next-image {
+	float: left;
+}
+
+/*--------------------------------------------------------------
+13.0 Structure
+--------------------------------------------------------------*/
+
+.header-main .site-branding{
+	float: right;
+	margin: 10px 0 10px 48px;
+}
+
+/*--------------------------------------------------------------
+13.1 Featured Posts Slider 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+14.0 Media Queries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+14.1 Tablet
+--------------------------------------------------------------*/
+@media screen and (min-width: 768px) {
+	/* Layout */
+	.content-area {
+		float: right;
+		margin: 0 0 0 -27%;
+	}
+
+	.site-main {
+		margin: 0 0 0 30%;
+	}
+
+	.site-content .widget-area {
+		float: left;
+	}
+
+	body.blog .hentry {
+		float: right;
+		margin-left: 3.5%;
+		margin-right: 0;
+	}
+	body.blog .hentry:nth-of-type(3n) {
+		margin-left: 0;
+	}
+	body.blog .hentry:nth-of-type(3n+1) {
+		clear: right;
+	}
+
+	/* 404 - Page not found */
+	.error404 .widget {
+		float: right;
+		margin-left: 1em;
+		margin-right: 0;
+	}
+
+	/* Featured Slider */
+	.slider-content {
+	float: left;
+	}
+
+	.featured-image {
+		float: right;
+	}
+}
+/*--------------------------------------------------------------
+14.2 Desktop
+--------------------------------------------------------------*/
+@media screen and (min-width: 1025px) {
+
+	/* Main Navigation */
+
+	.main-navigation ul {
+		float: left;
+	}
+
+	.main-navigation ul ul { 
+		float: right;
+		left: auto;
+		right: -999em;
+	}
+
+	.main-navigation ul ul ul {
+		left: auto;
+		right: -999em;
+	}
+
+	.main-navigation ul li:hover > ul,
+	.main-navigation ul li.focus > ul {
+		right: auto;
+	}
+
+	.main-navigation ul ul li:hover > ul,
+	.main-navigation ul ul li.focus > ul {
+		left: auto;
+		right: 100%;
+	}
+}

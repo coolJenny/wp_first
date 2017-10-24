@@ -1,0 +1,356 @@
+# Copyright (C) 2014 Creative Vision Animation
+# This file is distributed under the GNU General Public License v2 or later.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Arunachala 1.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/arunachala\n"
+"POT-Creation-Date: 2016-07-06 21:09+0530\n"
+"PO-Revision-Date: 2016-07-06 21:12+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: plurals=2; plural=(n > 1)\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:21
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: archive.php:24
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: archive.php:27
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:30
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:33
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:36
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:39
+msgid "Asides"
+msgstr ""
+
+#: archive.php:42
+msgid "Galleries"
+msgstr ""
+
+#: archive.php:45
+msgid "Images"
+msgstr ""
+
+#: archive.php:48
+msgid "Videos"
+msgstr ""
+
+#: archive.php:51
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:54
+msgid "Links"
+msgstr ""
+
+#: archive.php:57
+msgid "Statuses"
+msgstr ""
+
+#: archive.php:60
+msgid "Audios"
+msgstr ""
+
+#: archive.php:63
+msgid "Chats"
+msgstr ""
+
+#: archive.php:66 sidebar.php:17
+msgid "Archives"
+msgstr ""
+
+#: archive.php:94 index.php:34 search.php:27
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:95 index.php:35 search.php:28
+msgid "Next page"
+msgstr ""
+
+#: archive.php:96 index.php:36 search.php:29
+msgid "Page"
+msgstr ""
+
+#: comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35 comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36 comments.php:53
+msgid "&laquo; Older Comments"
+msgstr ""
+
+#: comments.php:37 comments.php:54
+msgid "Newer Comments &raquo;"
+msgstr ""
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: content-aside.php:26
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-aside.php:27 content-audio.php:32 content-gallery.php:32
+#: content-image.php:32 content-link.php:37 content-page.php:13
+#: content-quote.php:37 content-single.php:13 content-video.php:32
+#: content.php:36 image.php:29 image.php:96
+msgid "Edit"
+msgstr ""
+
+#: content-aside.php:38 content-audio.php:43 content-gallery.php:43
+#: content-image.php:43 content-link.php:48 content-quote.php:48
+#: content-video.php:43 content.php:47 functions.php:156
+msgid "Read more"
+msgstr ""
+
+#: content-aside.php:39 content-audio.php:46 content-gallery.php:46
+#: content-image.php:46 content-link.php:51 content-page.php:20
+#: content-quote.php:51 content-single.php:21 content-video.php:46
+#: content.php:50 image.php:82
+msgid "Pages:"
+msgstr ""
+
+#: content-aside.php:45 content-audio.php:30 content-gallery.php:30
+#: content-image.php:30 content-link.php:82 content-quote.php:82
+#: content-video.php:30 content.php:34
+msgid "Leave a comment"
+msgstr ""
+
+#: content-aside.php:45 content-audio.php:30 content-gallery.php:30
+#: content-image.php:30 content-link.php:82 content-quote.php:82
+#: content-video.php:30 content.php:34
+msgid "1 Comment"
+msgstr ""
+
+#: content-aside.php:45 content-audio.php:30 content-gallery.php:30
+#: content-image.php:30 content-link.php:82 content-quote.php:82
+#: content-video.php:30 content.php:34
+msgid "% Comments"
+msgstr ""
+
+#: content-audio.php:57 content-audio.php:67 content-gallery.php:57
+#: content-gallery.php:67 content-image.php:57 content-image.php:67
+#: content-link.php:62 content-link.php:72 content-quote.php:62
+#: content-quote.php:72 content-single.php:30 content-single.php:33
+#: content-video.php:57 content-video.php:67 content.php:61 content.php:71
+msgid ", "
+msgstr ""
+
+#: content-audio.php:61 content-audio.php:71 content-gallery.php:61
+#: content-gallery.php:71 content-image.php:61 content-image.php:71
+#: content-link.php:66 content-link.php:76 content-quote.php:66
+#: content-quote.php:76 content-video.php:61 content-video.php:71
+#: content.php:65 content.php:75
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-single.php:38
+#, php-format
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: content-single.php:40
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:46
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:48
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: functions.php:58
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:81
+msgid "Sidebar"
+msgstr ""
+
+#: header.php:30
+msgid "Menu"
+msgstr ""
+
+#: header.php:31
+msgid "Skip to content"
+msgstr ""
+
+#: image.php:35
+msgid "&laquo; Previous"
+msgstr ""
+
+#: image.php:36
+msgid "Next &raquo;"
+msgstr ""
+
+#: image.php:88
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:90
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:92
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: image.php:94
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar.php:24
+msgid "Meta"
+msgstr ""
+
+#: single.php:18
+msgid "Next post:"
+msgstr ""
+
+#: single.php:19
+msgid "&nbsp;&raquo"
+msgstr ""
+
+#: single.php:20
+msgid "&laquo;&nbsp;"
+msgstr ""
+
+#: single.php:21
+msgid "Previous post:"
+msgstr ""
+
+#: inc/customizer.php:20
+msgid "Homepage Content Category"
+msgstr ""
+
+#: inc/customizer.php:21
+msgid "Select a category for homepage."
+msgstr ""
+
+#: inc/extras.php:64
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/homepage-content.php:18
+msgid "Select All"
+msgstr ""
+
+#: inc/template-tags.php:27
+#, php-format
+msgid "<span class=\"posted-on\">%1$s</span><span class=\"byline\">%2$s</span>"
+msgstr ""

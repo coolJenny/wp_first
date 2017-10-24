@@ -1,0 +1,69 @@
+1.12
+=======================
+[Added] Changed screenshot
+
+1.11
+=======================
+[Added] unminified css and scripts
+
+1.10
+=======================
+[Added] unminified bootstrap
+
+1.9.10
+=======================
+[Fixed] some errors
+
+1.9.1
+=======================
+[Fixed] functions prefix
+[Removed] js errors
+
+1.9
+=======================
+[Fixed] functions prefix
+[Removed] js errors
+
+1.8
+=======================
+[Fixed] Footer URL
+
+1.7
+=======================
+[Fixed] Theme URL
+
+1.6
+=======================
+[Added] html5.js enqueued
+[Fixed] some css issues
+[Fixed] text domain to north-east
+
+1.5
+=======================
+[fixed] Theme Review issues
+
+
+1.4
+=======================
+[fixed] some css issues
+
+
+1.3
+=======================
+[added] northeast.pot file
+
+
+1.2
+=======================
+[fixed] some required issues
+
+
+1.1
+=======================
+[fixed] some text domain issues
+
+
+
+1.0
+=======================
+Initial Version
